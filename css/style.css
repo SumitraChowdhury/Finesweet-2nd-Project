@@ -1,0 +1,301 @@
+/*================================
+      Common CSS start
+==================================*/
+
+.navbar{
+    background: #1c1e53;
+    padding: 16px 0px;
+}
+a{
+    text-decoration: none;
+}
+.box{
+    display: flex;
+}
+.common-title h2{
+    font-size: 48px;
+    font-weight: 600;
+    color: #282938;
+    font-family: "Poppins", sans-serif;
+    line-height: 64px;
+}
+.common-title p{
+    width: 405px;
+    font-size: 16px;
+    font-weight: 400;
+    color: #282938;
+    font-family: "Poppins", sans-serif;
+    line-height: 28px;
+}
+.get-in-touch{
+    position: relative;
+}
+.get-in-touch a{
+    color: #2405F2;
+    font-size: 18px;
+    font-weight: 500;
+    font-family: "Poppins", sans-serif;
+}
+.get-in-touch i{
+    color: #2405F2;
+    position: absolute;
+    transform: translateY(-50%);
+    top: 50%;
+    left: 190px;
+    transition: .4s;
+}
+.get-in-touch:hover i{
+    left: 210px;
+}
+
+/*================================
+      Common CSS end
+==================================*/
+
+/*================================
+      Navbar Part start
+==================================*/
+
+.navbar-nav{
+    column-gap: 32px;
+}
+.nav-btn{
+    border: 1px solid rgba(244, 246, 252, 0.20);
+    border-radius: 41px;
+    color: white;
+    padding: 16px 48px;
+    font-size: 16px;
+    font-weight: 500;
+    font-family: "Poppins", sans-serif;
+    margin-left: 48px;
+}
+.nav-link{
+    font-size: 16px;
+    font-weight: 500;
+    color: #bbbbcb;
+    transition: .4s;
+    padding-right: 0px !important;
+    padding-left: 0px !important;
+}
+.nav-link:hover{
+    color: #FFFFFF;
+}
+
+/*================================
+      Navbar Part end
+==================================*/
+
+
+/*================================
+      Banner Part start
+==================================*/
+
+.banner{
+    background: #1c1e53;
+    padding: 126px 0px;
+}
+.banner h1{
+    font-size: 54px;
+    font-weight: 600;
+    color: #FFF;
+    font-family: "Poppins", sans-serif;
+}
+.banner p{
+    width: 562px;
+    font-size: 16px;
+    font-weight: 500;
+    color: rgba(255, 255, 255, 0.70);
+    font-family: "Poppins", sans-serif;
+    padding-bottom: 48px;
+    padding-top: 24px;
+}
+.banner .banner-btn{
+    background: #FCD980;
+    border: 1px solid transparent;
+    border-radius: 41px;
+    color:black;
+    padding: 16px 56px;
+    font-size: 16px;
+    font-weight: 500;
+    font-family: "Poppins", sans-serif;
+    display: inline-block;
+    transition: .4s;
+}
+.banner .banner-btn:hover{
+    background: transparent;
+    border-color: #FCD980;
+    color: #FCD980;
+}
+.banner .banner-btn-pricing{
+    color: white;
+    font-size: 16px;
+    font-weight: 500;
+    font-family: "Poppins", sans-serif;
+    margin-left: 30px;
+    position: relative;
+    display: inline-block;
+}
+.banner .banner-btn-pricing i{
+    position: absolute;
+    top: 0;
+    right: -30px;
+    transform: translateY(20%);
+    transition: .4s;
+    opacity: 0;
+}
+.banner .banner-btn-pricing:hover i{
+    right: -50px;
+    opacity: 1;
+}
+
+/*================================
+      Banner Part end
+==================================*/
+
+
+/*================================
+      Work Part start
+==================================*/
+
+.work{
+    padding: 128px 0px;
+    background: #F4F6FC;
+}
+.work p{
+    padding: 16px 0px;
+}
+
+.work .col-lg-7 .row{
+    row-gap: 48px;
+}
+.work .col-lg-7 h3{
+    font-size: 32px;
+    font-weight: 500;
+    font-family: "Poppins", sans-serif;
+    padding-bottom: 8px;
+    padding-top: 16px;
+}
+.work .col-lg-7 p{
+    width: 303px;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: "Poppins", sans-serif;
+}
+
+/*================================
+      Work Part end
+==================================*/
+
+
+/*================================
+      Project Part start
+==================================*/
+
+.project{
+    padding: 128px 0px;
+}
+.project .box{
+    justify-content: space-between;
+    align-items: center;
+}
+.project .get-in-touch a{
+    color: #282938;
+}
+.project .get-in-touch i{
+    color: #282938;
+    left: 100px;
+}
+.project .get-in-touch:hover i{
+    left: 120px;
+}
+.project .col-lg-8{
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+}
+.project .col-lg-8 .overlay{
+    position: absolute;
+    top: 0;
+    left: -52%;
+    width: 52%;
+    height: 100%;
+    background: rgba(28, 30, 83, 0.70);
+    transition: .4s;
+}
+.project .col-lg-8:hover .overlay{
+    left: 0;
+}
+.project .col-lg-8 .overlay h5{
+    padding-top: 312px;
+    padding-bottom: 16px;
+    padding-left: 48px;
+    padding-right: 35px;
+    font-size: 24px;
+    font-weight: 600;
+    color: white;
+    font-family: "Poppins", sans-serif;
+}
+.project .col-lg-8 .overlay p{
+    width: 293px;
+    padding-bottom: 40px;
+    padding-left: 48px;
+    font-size: 16px;
+    font-weight: 500;
+    color: white;
+    font-family: "Poppins", sans-serif;
+}
+.project .col-lg-8 .overlay .get-in-touch a{
+    padding-left: 48px;
+    color: #FCD980;
+}
+.project .col-lg-8 .overlay .get-in-touch i{
+    color: #FCD980;
+    right: 0;
+    left: 165px;
+}
+.project .col-lg-8 .overlay .get-in-touch:hover i{
+    left: 180px;
+}
+.project .col-lg-4 .img2{
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+}
+.project .col-lg-4 .img2 .overlay{
+    position: absolute;
+    top: -287px;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(28, 30, 83, 0.70);
+    transition: .4s;
+}
+.project .col-lg-4:hover .overlay{
+    top: 0;
+}
+.project .col-lg-4 .overlay h5{
+    width: 313px;
+    padding-top: 129px;
+    padding-bottom: 10px;
+    padding-left: 56px;
+    font-size: 24px;
+    font-weight: 600;
+    color: white;
+    font-family: "Poppins", sans-serif;
+}
+.project .col-lg-4 .overlay .get-in-touch a{
+    padding-left: 56px;
+    color: #FCD980;
+}
+.project .col-lg-4 .overlay .get-in-touch i{
+    color: #FCD980;
+    right: 0;
+    left: 170px;
+}
+.project .col-lg-4 .overlay .get-in-touch:hover i{
+    left: 185px;
+}
+
+/*================================
+      Project Part end
+==================================*/
