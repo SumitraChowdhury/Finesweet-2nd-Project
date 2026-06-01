@@ -295,7 +295,210 @@ a{
 .project .col-lg-4 .overlay .get-in-touch:hover i{
     left: 185px;
 }
+.project .col-lg-4 .img3{
+    padding-top: 16px;
+}
 
 /*================================
       Project Part end
+==================================*/
+
+
+/*================================
+      Design Part start
+==================================*/
+
+.design{
+    background: #F4F6FC;
+    padding-top: 128px;
+    padding-bottom: 128px;
+}
+.design .middle{
+    width: 630px;
+    height: 232px;
+    margin: 0 auto;
+    text-align: center;
+}
+.design .middle h6{
+    padding-bottom: 12px;
+    font-size: 16px;
+    font-weight: 500;
+    color: #282938;
+    font-family: "Poppins", sans-serif;
+}
+.design .middle h2{
+    padding-bottom: 47px;
+    line-height: 64px;
+    font-size: 48px;
+    font-weight: 600;
+    color: #282938;
+    font-family: "Poppins", sans-serif;
+}
+.design .row .col-lg-4{
+    padding: 24px 32px;
+}
+.design .col-lg-4 h6{
+    padding-top: 22px;
+    padding-left: 48px;
+    font-size: 24px;
+    font-weight: 500;
+    color: #282938;
+    font-family: "Poppins", sans-serif;
+}
+.design .col-lg-4 p{
+    width: 367px;
+    padding-top: 12px;
+    padding-left: 48px;
+    font-size: 16px;
+    font-weight: 400;
+    color: #282938;
+    font-family: "Poppins", sans-serif;
+}
+.design .row .col-lg-4 .i1{
+    width: 405px;
+    height: 316px;
+    background: #FFFFFF;
+}
+.design .row .col-lg-4 .i1 i{
+    font-size: 30px;
+    padding-top: 58px;
+    padding-left: 48px;
+    color: #2405F2;
+}
+.design .row .col-lg-4 .i2{
+    width: 405px;
+    height: 316px;
+    background: #FFFFFF;
+}
+.design .row .col-lg-4 .i2 i{
+    font-size: 30px;
+    padding-top: 58px;
+    padding-left: 48px;
+    color: #2405F2;
+}
+.design .row .col-lg-4 .i3{
+    width: 405px;
+    height: 316px;
+    background: #FFFFFF;
+}
+.design .row .col-lg-4 .i3 i{
+    font-size: 30px;
+    padding-top: 58px;
+    padding-left: 48px;
+    color: #2405F2;
+}
+.design .row .col-lg-4 .i4{
+    width: 405px;
+    height: 316px;
+    background: #FFFFFF;
+}
+.design .row .col-lg-4 .i4 i{
+    font-size: 30px;
+    padding-top: 58px;
+    padding-left: 48px;
+    color: #2405F2;
+}
+.design .row .col-lg-4 .i5{
+    width: 405px;
+    height: 316px;
+    background: #FFFFFF;
+}
+.design .row .col-lg-4 .i5 i{
+    font-size: 30px;
+    padding-top: 58px;
+    padding-left: 48px;
+    color: #2405F2;
+}
+.design .row .col-lg-4 .i6{
+    width: 405px;
+    height: 316px;
+    background: #FFFFFF;
+}
+.design .row .col-lg-4 .i6 i{
+    font-size: 30px;
+    padding-top: 58px;
+    padding-left: 48px;
+    color: #2405F2;
+}
+
+/*================================
+      Design Part end
+==================================*/
+
+
+/*================================
+      Client Part start
+==================================*/
+
+.client{
+    padding-top: 128px;
+    padding-bottom: 130px;
+    background: #F4F6FC;
+}
+.client .row .col-lg-4 .ptext{
+    padding-left: 12px;
+}
+.client .row .col-lg-4 .ptext h2{
+    width: 327px;
+    line-height: 58px;
+    font-size: 38px;
+    font-weight: 600;
+    color: #282938;
+    font-family: "Poppins", sans-serif;
+}
+.client .row .col-lg-4 .ptext p{
+    padding-top: 16px;
+    width: 327px;
+    line-height: 28px;
+    font-size: 16px;
+    font-weight: 400;
+    color: #282938;
+    font-family: "Poppins", sans-serif;
+}
+.client .row .col-lg-8 .imte{
+    padding-left: 110px;
+}
+.client .row .col-lg-8 .text h5{
+    width: 800px;
+    padding-bottom: 48px;
+    line-height: 48px;
+    font-size: 32px;
+    font-weight: 500;
+    color: #282938;
+    font-family: "Poppins", sans-serif;
+}
+.client .row .col-lg-8 .img{
+    display: flex;
+    height: 56px;
+}
+.client .row .col-lg-8 .itext{
+    display: block;
+    padding-left: 14px;
+}
+.client .row .col-lg-8 .img .itext h6{
+    font-size: 18px;
+    font-weight: 500;
+    color: #282938;
+    font-family: "Poppins", sans-serif;
+}
+.client .row .col-lg-8 .img .itext p{
+    font-size: 12px;
+    font-weight: 500;
+    color: #282938;
+    font-family: "Poppins", sans-serif;
+}
+
+/*================================
+      Client Part end
+==================================*/
+
+
+/*================================
+      Question Part start
+==================================*/
+
+
+
+/*================================
+      Question Part end
 ==================================*/
