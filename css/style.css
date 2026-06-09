@@ -562,3 +562,136 @@ a{
 /*================================
       FAQ Part end
 ==================================*/
+
+
+/* ======================
+    Contact part start
+======================== */
+
+.contact .contact-image {
+    width: 100%;
+    height: 100%;
+    background: blue;
+    position: relative;
+}
+.contact .row{
+    --bs-gutter-x:0px !important;
+}
+.contact .row .col-lg-6{
+    --bs-gutter-x:0px !important;
+}
+.contact .contact-image{
+    width: 100%;
+    background-image: url(../images/inquiry01.png);
+}
+.contact .contact-image .overly{
+    width: 100%;
+    height: 100%;
+    background: rgba(28, 30, 83, 0.5);
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 96px;
+    color: white;
+}
+.contact .row .col-lg-6 .contact-image .overly h2{
+    font-size: 54px;
+    font-weight: 500;
+    color: #fff;
+    font-family: "Poppins", sans-serif;
+    padding-top: 96px;
+    padding-bottom: 24px;
+}
+.contact .row .col-lg-6 .contact-image .overly p{
+    font-size: 16px;
+    font-weight: 400;
+    color: #fff;
+    font-family: "Poppins", sans-serif;
+}
+.contact .contact-content{
+    background: #1C1E53;
+    padding-top: 107px;
+    padding-left: 96px;
+    padding-right: 96px;
+    padding-bottom: 38px;
+}
+.contact .contact-content h3{
+    font-size: 24px;
+    font-weight: 500;
+    color: #fff;
+    font-family: "Poppins", sans-serif;
+}
+.contact .contact-content p{
+    padding-top: 17px;
+    padding-bottom: 40px;
+       font-size: 16px;
+    font-weight: 500;
+    color: #fff;
+    font-family: "Poppins", sans-serif;
+}
+.contact .contact-content input{
+    width: 100%;
+    padding: 18px 32px;
+    background: transparent;
+    border: 1px solid rgba(255, 255, 255,0.05);
+    border-radius: 8px;
+    margin-bottom: 20px;
+    color: white;
+    font-size: 16px;
+}
+.contact .contact-content input::placeholder{
+    color: #F4F6FC;
+}
+.contact .contact-content button{
+    width: 100%;
+    background: #FCD980;
+    border: 1px solid transparent;
+    padding: 19px 0px;
+    border-radius: 41px;
+    font-size: 18px;
+    font-weight: 500;
+    color: #1B1C2B;
+    font-family: "Poppins", sans-serif;
+    margin-bottom: 42px;
+    transition: .4s;
+}
+.contact .contact-content button:hover{
+    background : transparent;
+    border: 1px solid #FCD980;
+    color : white;
+}
+.contact .get-in-touch{
+    text-align: center;   
+}
+.contact .get-in-touch a{
+    color: white;
+}
+.contact .get-in-touch i {
+    color: #fff;
+    position: absolute;
+    top: 50%;
+    left: 333px;
+    transform: translateY(-50%);
+    transition: .4s;
+}
+.contact .get-in-touch:hover i {  
+    left: 353px;  
+}
+
+/* ======================
+    Contact part end
+======================== */
+
+
+/* ======================
+    Blog part start
+======================== */
+
+.blog .common-title h2{
+    padding-top: 77px;
+    padding-bottom: 64px;
+}
+
+/* ======================
+    Blog part end
+======================== */
