@@ -624,7 +624,7 @@ a{
 .contact .contact-content p{
     padding-top: 17px;
     padding-bottom: 40px;
-       font-size: 16px;
+    font-size: 16px;
     font-weight: 500;
     color: #fff;
     font-family: "Poppins", sans-serif;
@@ -691,7 +691,143 @@ a{
     padding-top: 77px;
     padding-bottom: 64px;
 }
+.blog .col-lg-4 p{
+    padding-top: 25px;
+    padding-bottom: 16px;
+    font-size: 16px;
+    font-weight: 500;
+    color: rgba(40, 41, 56, 0.70);
+    font-family: "Poppins", sans-serif;
+}
+.blog .col-lg-4 h6{
+    font-size: 24px;
+    font-weight: 500;
+    color: #282938;
+    font-family: "Poppins", sans-serif;
+}
+.blog .col-lg-4 .get-in-touch{
+    padding-top: 32px;
+}
+.blog .col-lg-4 .get-in-touch a{
+    font-size: 16px;
+    font-weight: 500;
+    color: #282938;
+    font-family: "Poppins", sans-serif;
+}
+.blog .col-lg-4 .get-in-touch i{
+    top: 80%;
+    color: #282938;
+    left: 90px;
+}
+.blog .col-lg-4 .get-in-touch:hover i{
+    left: 110px;
+}
 
 /* ======================
     Blog part end
+======================== */
+
+
+/* ======================
+    Talk part start
+======================== */
+
+.talk{
+    width: 100%;
+    height: 400px;
+    margin-top: 180px;
+    background: #1C1E53;
+}
+.talk .row .col-lg-6 img{
+    padding-top: 100px;
+    padding-bottom: 22px;
+}
+.talk .row .col-lg-6 p{
+    width: 399px;
+    padding-top: 25px;
+    font-size: 16px;
+    font-weight: 500;
+    color: rgba(255, 255, 255, 0.80);
+    font-family: "Poppins", sans-serif;
+}
+.talk .row .col-lg-6 .row{
+    position: absolute;
+    bottom: -144px;
+    left: 0px;
+    width: 517px;
+    height: 95px;
+    background: #FCD980;
+}
+.talk .row .col-lg-6 .row .col-lg-6 h6{
+    padding-left: 37px;
+    padding-top: 18px;
+    font-size: 18px;
+    font-weight: 500;
+    color: #282938;
+    font-family: "Poppins", sans-serif;
+}
+.talk .row .col-lg-6 .row .col-lg-6 p{
+    padding-left: 37px;
+    padding-top: 1px;
+    font-size: 16px;
+    font-weight: 400;
+    color: rgba(40, 41, 56, 0.80);
+    font-family: "Poppins", sans-serif;
+}
+.talk .row .col-lg-6 h2{
+    padding-top: 96px;
+    font-size: 48px;
+    font-weight: 600;
+    color: white;
+    font-family: "Poppins", sans-serif;
+}
+.talk .row .col-lg-6 p{
+    width: 399px;
+    padding-top: 14px;
+    padding-bottom: 28px;
+    font-size: 16px;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 0.80);
+    font-family: "Poppins", sans-serif;
+}
+.talk .row .col-lg-6 .icon{
+    color: white;
+    display: flex;
+}
+.talk .row .col-lg-6 .icon i{
+    font-size: 20px;
+    padding-right: 60px;
+}
+
+/* ======================
+    Talk part end
+======================== */
+
+
+/* ======================
+    Copyright part start
+======================== */
+
+.copyright .row .col-lg-6 p{
+    width: 399px;
+    padding: 32px 0px;
+    font-size: 16px;
+    font-weight: 500;
+    color: #282938;
+    font-family: "Poppins", sans-serif;
+}
+.copyright .row .col-lg-6 ul{
+    display: flex;
+    padding: 32px 0px;
+}
+.copyright .row .col-lg-6 ul li{
+    list-style: none;
+}
+.copyright .row .col-lg-6 ul li a{
+    color: #282938;
+    padding-right: 32px;
+}
+
+/* ======================
+    Copyright part end
 ======================== */
