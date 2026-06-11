@@ -1,1 +1,1041 @@
-@media
+@media(min-width:320px) and (max-width:575.99px){
+    .navbar-toggler{
+        border-color: white;
+    }
+    .navbar-toggler i{
+        color: white;
+    }
+    .navbar-nav{
+    text-align: center;
+    row-gap: 15px;
+    }
+    .nav-item:hover .nav-link{
+        color: #BBBBCB;
+    }
+    .nav-btn{
+        margin-left: 165px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        display: inline-block;
+    }
+    .navbar-collapse{
+        margin-top: 20px;
+        padding-top: 20px;
+        background-color: rgba(17, 139, 196, 0.801);
+        border-radius: 10px;
+    }
+    .banner{
+        padding: 60px 0;
+        text-align: center;
+    }
+
+    .banner h1{
+        font-size: 32px;
+        line-height: 42px;
+    }
+
+    .banner p{
+        width: 100%;
+    }
+
+    .banner img{
+        width: 100%;
+        margin-top: 40px;
+    }
+
+    .banner .banner-btn{
+        display: block;
+        margin-bottom: 20px;
+    }
+
+    .banner .banner-btn-pricing{
+        display: block;
+        margin-left: 0;
+    }
+    .common-title h2{
+        font-size: 30px;
+        line-height: 40px;
+    }
+
+    .common-title p{
+        width: 100%;
+    }
+    .work{
+        padding: 60px 0;
+    }
+
+    .work .col-lg-7{
+        margin-top: 40px;
+    }
+
+    .work .col-lg-7 p{
+        width: 100%;
+    }
+
+    .work .col-lg-6{
+        text-align: center;
+        margin-bottom: 30px;
+    }
+    .project{
+        padding: 60px 0;
+    }
+
+    .project .box{
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .project img{
+        width: 100%;
+    }
+
+    .project .col-lg-4{
+        margin-top: 20px;
+    }
+    .project .col-lg-8 .overlay{
+        left: 0;
+        width: 100%;
+        background: rgba(28,30,83,.8);
+    }
+
+    .project .col-lg-8 .overlay h5{
+        padding-top: 50px;
+        text-align: center;
+    }
+
+    .project .col-lg-8 .overlay p{
+        width: 100%;
+        text-align: center;
+        font-size: 10px;
+    }
+
+    .project .col-lg-4 .img2 .overlay{
+        top: 0;
+        bottom: 20px;
+    }
+    .project .row .col-lg-8 .overlay .get-in-touch {
+        font-size: 10px;
+	    position: relative;
+	    top: -48px;
+	    left: 98px;
+    }
+    .project .row .col-lg-8 .overlay .get-in-touch a{
+        font-size: 10px;
+    }
+    .project .col-lg-8 .overlay .get-in-touch i {
+	    left: 113px;
+    }
+    .project .col-lg-8 .overlay .get-in-touch:hover i{
+        left: 123px;
+    }
+    .project .col-lg-4 .overlay h5{
+	    padding-top: 68px;
+	    padding-bottom: 40px;
+	    left: 15px;
+        font-size: 20px;
+        width: 260px;
+        display: inline-block;
+    }
+    .project .row .col-lg-4 .overlay .get-in-touch {
+	    left: 66px;
+    }
+    .project .col-lg-4 .overlay .get-in-touch a{
+	    font-size: 10px;
+    }
+    .project .col-lg-4 .overlay .get-in-touch i {
+	    left: 121px;
+        font-size: 10px;
+        top: 60%;
+    }
+    .project .col-lg-4 .overlay .get-in-touch:hover i{
+        left: 140px;
+    }
+    .design{
+        padding: 60px 0;
+    }
+
+    .design .middle{
+        width: 100%;
+        height: auto;
+    }
+    .design .middle h6{
+	    font-size: 12px;
+    }
+    .design .middle h2{
+        font-size: 25px;
+        line-height: 28px;
+    }
+    .design .row .col-lg-4 .i1, .design .row .col-lg-4 .i2, .design .row .col-lg-4 .i3, .design .row .col-lg-4 .i4, .design .row .col-lg-4 .i5, .design .row .col-lg-4 .i6{
+        width: 100%;
+        height: auto;
+        padding-bottom: 30px;
+        padding-left: 40px;
+        font-size: 5px;
+    }  
+    .design .row .col-lg-4 .i1 i, .design .row .col-lg-4 .i2 i, .design .row .col-lg-4 .i3 i, .design .row .col-lg-4 .i4 i, .design .row .col-lg-4 .i5 i, .design .row .col-lg-4 .i6 i{
+        font-size: 20px;
+        padding-top: 25px;
+        padding-left: 80px;
+    }
+    .design .col-lg-4 h6{
+        font-size: 20px;
+        padding-left: 20px;
+    }
+    .design .col-lg-4 p{
+        padding-left: 0;
+        text-align: center;
+        width: 200px;
+        font-size: 10px;
+    }
+    .client{
+        padding: 60px 0;
+    }
+
+    .client .row .col-lg-4 .ptext h2{
+        width: 100%;
+    }
+
+    .client .row .col-lg-4 .ptext p{
+        width: 100%;
+    }
+
+    .client .row .col-lg-8 .imte{
+        padding-left: 0;
+        margin-top: 30px;
+    }
+
+    .client .row .col-lg-8 .text h5{
+        width: 100%;
+        font-size: 22px;
+        line-height: 35px;
+    }
+    .faq{
+        padding: 60px 0;
+    }
+
+    .faq .accordion-button{
+        font-size: 18px;
+    }
+
+    .faq .accordion-item span{
+        margin-right: 15px;
+    }
+
+    .faq .accordion-item .accordion-body p{
+        margin: 0;
+    }
+    .contact .contact-image .overly{
+        padding: 25px;
+    }
+
+    .contact .row .col-lg-6 .contact-image .overly h2{
+        font-size: 32px;
+        padding-top: 0;
+    }
+
+    .contact .contact-content{
+        padding: 40px 20px;
+    }
+    .contact .contact-content h3 {
+	    padding-top: 280px;
+    }
+    .contact .get-in-touch i{
+        display: none;
+    }
+    .blog .col-lg-4{
+        margin-bottom: 40px;
+    }
+
+    .blog img{
+        width: 100%;
+    }
+    .talk{
+        height: auto;
+        padding: 60px 0;
+        text-align: center;
+    }
+
+    .talk .row .col-lg-6 p{
+        width: 100%;
+    }
+
+    .talk .row .col-lg-6 h2{
+        padding-top: 40px;
+    }
+    .talk .row .col-lg-6 .row{
+        position: static;
+        width: 100%;
+        height: auto;
+        margin-top: 30px;
+    }
+    .talk .icon{
+        justify-content: center;
+    }
+
+    .talk .icon i{
+        padding-right: 20px;
+    }
+    .copyright{
+        text-align: center;
+    }
+
+    .copyright .row .col-lg-6 p{
+        width: 100%;
+    }
+
+    .copyright .row .col-lg-6 ul{
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    .copyright .row .col-lg-6 ul li a{
+        padding: 5px 10px;
+    }
+    img{
+        max-width: 100%;
+        height: auto;
+    }
+
+    body{
+        overflow-x: hidden;
+    }
+}
+
+@media(min-width:576px) and (max-width:767.99px){
+    .navbar-toggler{
+        border-color: white;
+    }
+    .navbar-toggler i{
+        color: white;
+    }
+    .navbar-nav{
+    text-align: center;
+    row-gap: 15px;
+    }
+    .nav-item:hover .nav-link{
+        color: #BBBBCB;
+    }
+    .nav-btn{
+        margin-left: 165px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        display: inline-block;
+    }
+    .navbar-collapse{
+        margin-top: 20px;
+        padding-top: 20px;
+        background-color: rgba(17, 139, 196, 0.801);
+        border-radius: 10px;
+    }
+    .banner{
+        padding: 60px 0;
+        text-align: center;
+    }
+
+    .banner h1{
+        font-size: 32px;
+        line-height: 42px;
+    }
+
+    .banner p{
+        width: 100%;
+    }
+
+    .banner img{
+        width: 100%;
+        margin-top: 40px;
+    }
+
+    .banner .banner-btn{
+        display: block;
+        margin-bottom: 20px;
+    }
+
+    .banner .banner-btn-pricing{
+        display: block;
+        margin-left: 0;
+    }
+    .common-title h2{
+        font-size: 30px;
+        line-height: 40px;
+    }
+
+    .common-title p{
+        width: 100%;
+    }
+    .work{
+        padding: 60px 0;
+    }
+
+    .work .col-lg-7{
+        margin-top: 40px;
+    }
+
+    .work .col-lg-7 p{
+        width: 100%;
+    }
+
+    .work .col-lg-6{
+        text-align: center;
+        margin-bottom: 30px;
+    }
+    .project{
+        padding: 60px 0;
+    }
+
+    .project .box{
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .project img{
+        width: 100%;
+    }
+
+    .project .col-lg-4{
+        margin-top: 20px;
+    }
+    .project .col-lg-8 .overlay{
+        left: 0;
+        width: 100%;
+        background: rgba(28,30,83,.8);
+    }
+
+    .project .col-lg-8 .overlay h5{
+        padding-top: 50px;
+    }
+
+    .project .col-lg-8 .overlay p{
+        width: 100%;
+    }
+
+    .project .col-lg-4 .img2 .overlay{
+        top: 0;
+    }
+    .design{
+        padding: 60px 0;
+    }
+
+    .design .middle{
+        width: 100%;
+        height: auto;
+    }
+
+    .design .middle h2{
+        font-size: 30px;
+        line-height: 40px;
+    }
+    .design .row .col-lg-4 .i1, .design .row .col-lg-4 .i2, .design .row .col-lg-4 .i3, .design .row .col-lg-4 .i4, .design .row .col-lg-4 .i5, .design .row .col-lg-4 .i6{
+        width: 100%;
+        height: auto;
+        padding-bottom: 30px;
+    }   
+
+    .design .col-lg-4 p{
+        width: 100%;
+    }
+    .client{
+        padding: 60px 0;
+    }
+
+    .client .row .col-lg-4 .ptext h2{
+        width: 100%;
+    }
+
+    .client .row .col-lg-4 .ptext p{
+        width: 100%;
+    }
+
+    .client .row .col-lg-8 .imte{
+        padding-left: 0;
+        margin-top: 30px;
+    }
+
+    .client .row .col-lg-8 .text h5{
+        width: 100%;
+        font-size: 22px;
+        line-height: 35px;
+    }
+    .faq{
+        padding: 60px 0;
+    }
+
+    .faq .accordion-button{
+        font-size: 18px;
+    }
+
+    .faq .accordion-item span{
+        margin-right: 15px;
+    }
+
+    .faq .accordion-item .accordion-body p{
+        margin: 0;
+    }
+    .contact .contact-image .overly{
+        padding: 25px;
+    }
+
+    .contact .row .col-lg-6 .contact-image .overly h2{
+        font-size: 32px;
+        padding-top: 0;
+    }
+
+    .contact .contact-content{
+        padding: 40px 20px;
+    }
+    .contact .contact-content h3 {
+	    padding-top: 201px;
+    }
+    .contact .get-in-touch i{
+        display: none;
+    }
+    .blog .col-lg-4{
+        margin-bottom: 40px;
+    }
+
+    .blog img{
+        width: 100%;
+    }
+    .talk{
+        height: auto;
+        padding: 60px 0;
+        text-align: center;
+    }
+
+    .talk .row .col-lg-6 p{
+        width: 100%;
+    }
+
+    .talk .row .col-lg-6 h2{
+        padding-top: 40px;
+    }
+    .talk .row .col-lg-6 .row{
+        position: static;
+        width: 100%;
+        height: auto;
+        margin-top: 30px;
+    }
+    .talk .icon{
+        justify-content: center;
+    }
+
+    .talk .icon i{
+        padding-right: 20px;
+    }
+    .copyright{
+        text-align: center;
+    }
+
+    .copyright .row .col-lg-6 p{
+        width: 100%;
+    }
+
+    .copyright .row .col-lg-6 ul{
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    .copyright .row .col-lg-6 ul li a{
+        padding: 5px 10px;
+    }
+    img{
+        max-width: 100%;
+        height: auto;
+    }
+
+    body{
+        overflow-x: hidden;
+    }
+}
+
+@media(min-width:768px) and (max-width:991.99px){
+    .navbar-toggler{
+        border-color: white;
+    }
+    .navbar-toggler i{
+        color: white;
+    }
+    .navbar-nav{
+    text-align: center;
+    row-gap: 15px;
+    }
+    .nav-item:hover .nav-link{
+        color: #BBBBCB;
+    }
+    .nav-btn{
+        margin-left: 165px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        display: inline-block;
+    }
+    .navbar-collapse{
+        margin-top: 20px;
+        padding-top: 20px;
+        background-color: rgba(17, 139, 196, 0.801);
+        border-radius: 10px;
+    }
+    .banner{
+        padding: 60px 0;
+        text-align: center;
+    }
+
+    .banner h1{
+        font-size: 32px;
+        line-height: 42px;
+    }
+
+    .banner p{
+        width: 100%;
+    }
+
+    .banner img{
+        width: 100%;
+        margin-top: 40px;
+    }
+
+    .banner .banner-btn{
+        display: block;
+        margin-bottom: 20px;
+    }
+
+    .banner .banner-btn-pricing{
+        display: block;
+        margin-left: 0;
+    }
+    .common-title h2{
+        font-size: 30px;
+        line-height: 40px;
+    }
+
+    .common-title p{
+        width: 100%;
+    }
+    .work{
+        padding: 60px 0;
+    }
+
+    .work .col-lg-7{
+        margin-top: 40px;
+    }
+
+    .work .col-lg-7 p{
+        width: 100%;
+    }
+
+    .work .col-lg-6{
+        text-align: center;
+        margin-bottom: 30px;
+    }
+    .project{
+        padding: 60px 0;
+    }
+
+    .project .box{
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .project img{
+        width: 100%;
+    }
+
+    .project .col-lg-4{
+        margin-top: 20px;
+    }
+    .project .col-lg-8 .overlay{
+        left: 0;
+        width: 100%;
+        background: rgba(28,30,83,.8);
+    }
+
+    .project .col-lg-8 .overlay h5{
+        padding-top: 50px;
+    }
+
+    .project .col-lg-8 .overlay p{
+        width: 100%;
+    }
+
+    .project .col-lg-4 .img2 .overlay{
+        top: 0;
+    }
+    .design{
+        padding: 60px 0;
+    }
+
+    .design .middle{
+        width: 100%;
+        height: auto;
+    }
+
+    .design .middle h2{
+        font-size: 30px;
+        line-height: 40px;
+    }
+    .design .row .col-lg-4 .i1, .design .row .col-lg-4 .i2, .design .row .col-lg-4 .i3, .design .row .col-lg-4 .i4, .design .row .col-lg-4 .i5, .design .row .col-lg-4 .i6{
+        width: 100%;
+        height: auto;
+        padding-bottom: 30px;
+    }   
+
+    .design .col-lg-4 p{
+        width: 100%;
+    }
+    .client{
+        padding: 60px 0;
+    }
+
+    .client .row .col-lg-4 .ptext h2{
+        width: 100%;
+    }
+
+    .client .row .col-lg-4 .ptext p{
+        width: 100%;
+    }
+
+    .client .row .col-lg-8 .imte{
+        padding-left: 0;
+        margin-top: 30px;
+    }
+
+    .client .row .col-lg-8 .text h5{
+        width: 100%;
+        font-size: 22px;
+        line-height: 35px;
+    }
+    .faq{
+        padding: 60px 0;
+    }
+
+    .faq .accordion-button{
+        font-size: 18px;
+    }
+
+    .faq .accordion-item span{
+        margin-right: 15px;
+    }
+
+    .faq .accordion-item .accordion-body p{
+        margin: 0;
+    }
+    .contact .contact-image .overly{
+        padding: 25px;
+    }
+
+    .contact .row .col-lg-6 .contact-image .overly h2{
+        font-size: 32px;
+        padding-top: 0;
+    }
+
+    .contact .contact-content{
+        padding: 40px 20px;
+    }
+    .contact .contact-content h3 {
+	    padding-top: 201px;
+    }
+    .contact .get-in-touch i{
+        display: none;
+    }
+    .blog .col-lg-4{
+        margin-bottom: 40px;
+    }
+
+    .blog img{
+        width: 100%;
+    }
+    .talk{
+        height: auto;
+        padding: 60px 0;
+        text-align: center;
+    }
+
+    .talk .row .col-lg-6 p{
+        width: 100%;
+    }
+
+    .talk .row .col-lg-6 h2{
+        padding-top: 40px;
+    }
+    .talk .row .col-lg-6 .row{
+        position: static;
+        width: 100%;
+        height: auto;
+        margin-top: 30px;
+    }
+    .talk .icon{
+        justify-content: center;
+    }
+
+    .talk .icon i{
+        padding-right: 20px;
+    }
+    .copyright{
+        text-align: center;
+    }
+
+    .copyright .row .col-lg-6 p{
+        width: 100%;
+    }
+
+    .copyright .row .col-lg-6 ul{
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    .copyright .row .col-lg-6 ul li a{
+        padding: 5px 10px;
+    }
+    img{
+        max-width: 100%;
+        height: auto;
+    }
+
+    body{
+        overflow-x: hidden;
+    }
+}
+
+@media(min-width:992px) and (max-width:1199.99px){
+    .navbar-toggler{
+        border-color: white;
+    }
+    .navbar-toggler i{
+        color: white;
+    }
+    .navbar-nav{
+    text-align: center;
+    row-gap: 15px;
+    }
+    .nav-item:hover .nav-link{
+        color: #BBBBCB;
+    }
+    .nav-btn{
+        margin-left: 165px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        display: inline-block;
+    }
+    .navbar-collapse{
+        margin-top: 20px;
+        padding-top: 20px;
+    }
+    .banner{
+        padding: 60px 0;
+        text-align: center;
+    }
+
+    .banner h1{
+        font-size: 32px;
+        line-height: 42px;
+    }
+
+    .banner p{
+        width: 100%;
+    }
+
+    .banner img{
+        width: 100%;
+        margin-top: 40px;
+    }
+
+    .banner .banner-btn{
+        display: block;
+        margin-bottom: 20px;
+    }
+
+    .banner .banner-btn-pricing{
+        display: block;
+        margin-left: 0;
+    }
+    .common-title h2{
+        font-size: 30px;
+        line-height: 40px;
+    }
+
+    .common-title p{
+        width: 100%;
+    }
+    .work{
+        padding: 60px 0;
+    }
+
+    .work .col-lg-7{
+        margin-top: 40px;
+    }
+
+    .work .col-lg-7 p{
+        width: 100%;
+    }
+
+    .work .col-lg-6{
+        text-align: center;
+        margin-bottom: 30px;
+    }
+    .project{
+        padding: 60px 0;
+    }
+
+    .project .box{
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .project img{
+        width: 100%;
+    }
+
+    .project .col-lg-4{
+        margin-top: 20px;
+    }
+    .project .col-lg-8 .overlay{
+        left: 0;
+        width: 100%;
+        background: rgba(28,30,83,.8);
+    }
+
+    .project .col-lg-8 .overlay h5{
+        padding-top: 50px;
+    }
+
+    .project .col-lg-8 .overlay p{
+        width: 100%;
+    }
+
+    .project .col-lg-4 .img2 .overlay{
+        top: 0;
+    }
+    .design{
+        padding: 60px 0;
+    }
+
+    .design .middle{
+        width: 100%;
+        height: auto;
+    }
+
+    .design .middle h2{
+        font-size: 30px;
+        line-height: 40px;
+    }
+    .design .row .col-lg-4 .i1, .design .row .col-lg-4 .i2, .design .row .col-lg-4 .i3, .design .row .col-lg-4 .i4, .design .row .col-lg-4 .i5, .design .row .col-lg-4 .i6{
+        width: 100%;
+        height: auto;
+        padding-bottom: 30px;
+    }   
+
+    .design .col-lg-4 p{
+        width: 100%;
+    }
+    .client{
+        padding: 60px 0;
+    }
+
+    .client .row .col-lg-4 .ptext h2{
+        width: 100%;
+    }
+
+    .client .row .col-lg-4 .ptext p{
+        width: 100%;
+    }
+
+    .client .row .col-lg-8 .imte{
+        padding-left: 0;
+        margin-top: 30px;
+    }
+
+    .client .row .col-lg-8 .text h5{
+        width: 100%;
+        font-size: 22px;
+        line-height: 35px;
+    }
+    .faq{
+        padding: 60px 0;
+    }
+
+    .faq .accordion-button{
+        font-size: 18px;
+    }
+
+    .faq .accordion-item span{
+        margin-right: 15px;
+    }
+
+    .faq .accordion-item .accordion-body p{
+        margin: 0;
+    }
+    .contact .contact-image .overly{
+        padding: 25px;
+    }
+
+    .contact .row .col-lg-6 .contact-image .overly h2{
+        font-size: 32px;
+        padding-top: 0;
+    }
+
+    .contact .contact-content{
+        padding: 40px 20px;
+    }
+    .contact .contact-content h3 {
+	    padding-top: 201px;
+    }
+    .contact .get-in-touch i{
+        display: none;
+    }
+    .blog .col-lg-4{
+        margin-bottom: 40px;
+    }
+
+    .blog img{
+        width: 100%;
+    }
+    .talk{
+        height: auto;
+        padding: 60px 0;
+        text-align: center;
+    }
+
+    .talk .row .col-lg-6 p{
+        width: 100%;
+    }
+
+    .talk .row .col-lg-6 h2{
+        padding-top: 40px;
+    }
+    .talk .row .col-lg-6 .row{
+        position: static;
+        width: 100%;
+        height: auto;
+        margin-top: 30px;
+    }
+    .talk .icon{
+        justify-content: center;
+    }
+
+    .talk .icon i{
+        padding-right: 20px;
+    }
+    .copyright{
+        text-align: center;
+    }
+
+    .copyright .row .col-lg-6 p{
+        width: 100%;
+    }
+
+    .copyright .row .col-lg-6 ul{
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    .copyright .row .col-lg-6 ul li a{
+        padding: 5px 10px;
+    }
+    img{
+        max-width: 100%;
+        height: auto;
+    }
+
+    body{
+        overflow-x: hidden;
+    }
+}
